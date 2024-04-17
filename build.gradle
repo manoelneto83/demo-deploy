@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files('libs/pix-sdk-1.0.0.0.aar')
+}
